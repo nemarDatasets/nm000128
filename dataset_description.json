@@ -1,0 +1,36 @@
+{
+	"Name": "Dong2023",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC BY-NC 4.0",
+	"Authors": [
+		"Yue Dong",
+		"Sen Tian"
+	],
+	"ReferencesAndLinks": [
+		"https://zenodo.org/records/18847318"
+	],
+	"DatasetDOI": "doi:10.26599/BSA.2023.9050020",
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.4.3"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.26599/BSA.2023.9050020",
+			"URL": "https://zenodo.org/records/18847318"
+		}
+	],
+	"Keywords": [
+		"healthy",
+		"visual",
+		"perception",
+		"ssvep"
+	],
+	"PublicationYear": 2023
+}

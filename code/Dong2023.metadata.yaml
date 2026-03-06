@@ -1,0 +1,347 @@
+_dataset:
+  class: Dong2023
+  code: Dong2023
+  doi: 10.26599/BSA.2023.9050020
+  interval:
+  - 0.5
+  - 4.5
+  n_subjects: 59
+  paradigm: ssvep
+acquisition:
+  channel_types:
+    eeg: 8
+  ground: Fp2
+  hardware: NeuSenW (Neuracle)
+  line_freq: 50.0
+  montage: standard_1005
+  n_channels: 8
+  reference: Fp1
+  sampling_rate: 250.0
+  sensor_type: semi-dry (pre-gelled)
+  sensors:
+  - POz
+  - PO3
+  - PO4
+  - PO7
+  - PO8
+  - Oz
+  - O1
+  - O2
+bci_application:
+  environment: non-shielded
+  online_feedback: true
+data_structure:
+  n_blocks: 4
+  n_trials: 160
+documentation:
+  country: CN
+  data_url: https://zenodo.org/records/18847318
+  doi: 10.26599/BSA.2023.9050020
+  institution: Jiangsu JITRI Brain Machine Fusion Intelligence Institute
+  investigators:
+  - Yue Dong
+  - Sen Tian
+  license: CC BY-NC 4.0
+  publication_year: 2023
+  repository: Zenodo
+  senior_author: Yue Dong
+experiment:
+  class_labels:
+  - '8'
+  - '8.2'
+  - '8.4'
+  - '8.6'
+  - '8.8'
+  - '9'
+  - '9.2'
+  - '9.4'
+  - '9.6'
+  - '9.8'
+  - '10'
+  - '10.2'
+  - '10.4'
+  - '10.6'
+  - '10.8'
+  - '11'
+  - '11.2'
+  - '11.4'
+  - '11.6'
+  - '11.8'
+  - '12'
+  - '12.2'
+  - '12.4'
+  - '12.6'
+  - '12.8'
+  - '13'
+  - '13.2'
+  - '13.4'
+  - '13.6'
+  - '13.8'
+  - '14'
+  - '14.2'
+  - '14.4'
+  - '14.6'
+  - '14.8'
+  - '15'
+  - '15.2'
+  - '15.4'
+  - '15.6'
+  - '15.8'
+  feedback_type: visual
+  mode: offline
+  n_classes: 40
+  paradigm: ssvep
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: JFPM visual flicker
+  synchronicity: synchronous
+  task_type: SSVEP speller
+  trial_duration: 4.0
+file_format: MAT
+paradigm_specific:
+  detected_paradigm: ssvep
+  frequency_resolution_hz: 0.2
+  stimulus_frequencies_hz:
+  - 8.0
+  - 8.2
+  - 8.4
+  - 8.6
+  - 8.8
+  - 9.0
+  - 9.2
+  - 9.4
+  - 9.6
+  - 9.8
+  - 10.0
+  - 10.2
+  - 10.4
+  - 10.6
+  - 10.8
+  - 11.0
+  - 11.2
+  - 11.4
+  - 11.6
+  - 11.8
+  - 12.0
+  - 12.2
+  - 12.4
+  - 12.600000000000001
+  - 12.8
+  - 13.0
+  - 13.2
+  - 13.4
+  - 13.600000000000001
+  - 13.8
+  - 14.0
+  - 14.2
+  - 14.4
+  - 14.600000000000001
+  - 14.8
+  - 15.0
+  - 15.2
+  - 15.4
+  - 15.600000000000001
+  - 15.8
+participants:
+  age_max: 16
+  age_mean: 12.4
+  age_min: 10
+  ages:
+  - 15
+  - 11
+  - 13
+  - 13
+  - 13
+  - 12
+  - 12
+  - 11
+  - 13
+  - 11
+  - 11
+  - 16
+  - 11
+  - 12
+  - 13
+  - 12
+  - 14
+  - 11
+  - 11
+  - 11
+  - 12
+  - 13
+  - 10
+  - 12
+  - 11
+  - 11
+  - 13
+  - 14
+  - 12
+  - 13
+  - 13
+  - 11
+  - 12
+  - 13
+  - 13
+  - 15
+  - 14
+  - 13
+  - 14
+  - 11
+  - 12
+  - 11
+  - 13
+  - 13
+  - 14
+  - 11
+  - 11
+  - 13
+  - 14
+  - 14
+  - 11
+  - 14
+  - 14
+  - 10
+  - 12
+  - 11
+  - 11
+  - 13
+  - 12
+  gender:
+    female: 22
+    male: 37
+  handedness_list:
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  - right
+  health_status: healthy
+  n_subjects: 59
+  sexes:
+  - male
+  - female
+  - male
+  - female
+  - male
+  - male
+  - male
+  - male
+  - female
+  - female
+  - male
+  - female
+  - male
+  - female
+  - male
+  - female
+  - male
+  - male
+  - male
+  - female
+  - male
+  - male
+  - female
+  - male
+  - male
+  - male
+  - male
+  - female
+  - female
+  - male
+  - male
+  - female
+  - female
+  - male
+  - male
+  - female
+  - male
+  - male
+  - female
+  - male
+  - male
+  - male
+  - male
+  - male
+  - male
+  - female
+  - male
+  - male
+  - female
+  - male
+  - male
+  - female
+  - male
+  - female
+  - male
+  - female
+  - female
+  - female
+  - male
+  species: homo sapiens
+preprocessing:
+  data_state: epoched
+  downsampled_to_hz: 250.0
+runs_per_session: 1
+sessions_per_subject: 1
+tags:
+  modality:
+  - visual
+  pathology:
+  - healthy
+  type:
+  - perception

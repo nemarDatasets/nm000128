@@ -1,0 +1,9 @@
+﻿name	type	units	low_cutoff	high_cutoff	description	sampling_frequency	status	status_description
+POz	EEG	µV	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+PO3	EEG	µV	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+PO4	EEG	µV	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+PO7	EEG	µV	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+PO8	EEG	µV	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+Oz	EEG	µV	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+O1	EEG	µV	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+O2	EEG	µV	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a

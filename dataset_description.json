@@ -1,5 +1,5 @@
 {
-	"Name": "Dong2023",
+	"Name": "59-subject 40-class SSVEP dataset",
 	"BIDSVersion": "1.9.0",
 	"HEDVersion": "8.4.0",
 	"DatasetType": "derivative",
@@ -11,7 +11,6 @@
 	"ReferencesAndLinks": [
 		"https://zenodo.org/records/18847318"
 	],
-	"DatasetDOI": "doi:10.26599/BSA.2023.9050020",
 	"GeneratedBy": [
 		{
 			"CodeURL": "https://github.com/NeuroTechX/moabb",

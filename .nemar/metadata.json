@@ -1,10 +1,38 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Dong2023 – 59-subject 40-class SSVEP dataset",
+  "description": "A 59-subject EEG dataset comprising 8-channel recordings from healthy adolescents (aged 10-16 years) performing a 40-target steady-state visually evoked potential (SSVEP) brain-computer interface task using joint frequency and phase modulation stimuli. The dataset contains 160 trials per subject recorded at 250 Hz with occipital electrode montage, designed for benchmarking SSVEP-based BCI classification algorithms.",
+  "methods_description": "EEG data were acquired at 1000 Hz using a NeuSenW amplifier (Neuracle) with 8 semi-dry pre-gelled electrodes positioned over the occipital lobe (POz, PO3, PO4, PO7, PO8, Oz, O1, O2) according to the standard 10-05 montage, with reference at Fp1 and ground at Fp2. Stimulation frequencies ranged from 8.0 to 15.8 Hz (0.2 Hz step) in a 4×10 matrix layout. Each subject completed 4 blocks of 40 trials with 1 s cue, 4 s stimulation, and 1 s visual feedback per trial. Data were downsampled to 250 Hz and epoched into 5 s segments (0.5 s pre-stimulus + 4 s stimulation + 0.5 s post-stimulus).",
+  "license": "CC BY-NC 4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Yue Dong": {},
     "Sen Tian": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "steady-state visually evoked potentials"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "adolescents"
+    },
+    {
+      "term": "frequency modulation"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.26599/BSA.2023.9050020",
@@ -32,16 +60,13 @@
       "relation_type": "References"
     }
   ],
-  "title": "59-subject 40-class SSVEP dataset",
-  "license": "CC BY-NC 4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "410.0 MB (60 files)"
+    "415.4 MB (61 files)"
   ],
   "formats": [
     ".html",
@@ -52,27 +77,5 @@
     ".yaml",
     ".yml"
   ],
-  "description": "A comprehensive steady-state visually evoked potential (SSVEP) dataset comprising EEG recordings from 59 healthy subjects (mean age 12.4 years) performing a 40-class visual speller task. The dataset includes 8-channel EEG data sampled at 250 Hz with stimulation frequencies ranging from 8.0 to 15.8 Hz at 0.2 Hz resolution, designed to support brain-computer interface research and benchmarking of SSVEP classification algorithms.",
-  "methods_description": "EEG data were acquired using a NeuSenW system (Neuracle) with 8 semi-dry pre-gelled electrodes positioned at POz, PO3, PO4, PO7, PO8, Oz, O1, and O2 according to the standard 1005 montage. Reference and ground electrodes were placed at Fp1 and Fp2 respectively. Sampling rate was 250 Hz with a 50 Hz line frequency. Subjects performed a SSVEP speller task with 40 visual flicker stimuli at distinct frequencies, with each trial lasting 4 seconds and a trial interval of 0.5-4.5 seconds. Four blocks of 160 trials total were collected per subject in a single session.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "steady-state visually evoked potentials"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "SSVEP speller"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "frequency tagging"
-    }
-  ],
-  "source_hash": "f5e085eebd0af9a0b37006a20c38d7864facc980bcbb19defe0c364c70d5521d"
+  "source_hash": "4be1647c845e23f89d6c52c0b1646369510160769980dc9df2d153dc9fa34c6f"
 }

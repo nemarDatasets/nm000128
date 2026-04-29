@@ -39,7 +39,7 @@ jobs:
           fi
 
           RESPONSE=$(curl -s -w "\n%{http_code}" -X POST \
-            "https://api.osc.earth/nemar/webhooks/publish-version-doi" \
+            "https://api.nemar.org/webhooks/publish-version-doi" \
             -H "Content-Type: application/json" \
             -H "X-Webhook-Token: $NEMAR_WEBHOOK_TOKEN" \
             -d "{

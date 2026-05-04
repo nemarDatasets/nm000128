@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000128-blue)](https://doi.org/10.82901/nemar.nm000128)
+
 # 59-subject 40-class SSVEP dataset
 
 59-subject 40-class SSVEP dataset.

@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dong2023 – 59-subject 40-class SSVEP dataset",
-  "description": "A 59-subject EEG dataset comprising 8-channel recordings from healthy adolescents (aged 10-16 years) performing a 40-target steady-state visually evoked potential (SSVEP) brain-computer interface task using joint frequency and phase modulation stimuli. The dataset contains 160 trials per subject recorded at 250 Hz with occipital electrode montage, designed for benchmarking SSVEP-based BCI classification algorithms.",
-  "methods_description": "EEG data were acquired at 1000 Hz using a NeuSenW amplifier (Neuracle) with 8 semi-dry pre-gelled electrodes positioned over the occipital lobe (POz, PO3, PO4, PO7, PO8, Oz, O1, O2) according to the standard 10-05 montage, with reference at Fp1 and ground at Fp2. Stimulation frequencies ranged from 8.0 to 15.8 Hz (0.2 Hz step) in a 4×10 matrix layout. Each subject completed 4 blocks of 40 trials with 1 s cue, 4 s stimulation, and 1 s visual feedback per trial. Data were downsampled to 250 Hz and epoched into 5 s segments (0.5 s pre-stimulus + 4 s stimulation + 0.5 s post-stimulus).",
+  "description": "A 59-subject steady-state visually evoked potential (SSVEP) dataset comprising 8-channel EEG recordings from healthy adolescents (aged 10-16 years) performing a 40-target SSVEP-based brain-computer interface task. The dataset includes 160 trials per subject using joint frequency and phase modulation stimuli with frequencies ranging from 8.0 to 15.8 Hz, recorded at 250 Hz sampling rate and organized in BIDS format for standardized analysis and benchmarking.",
+  "methods_description": "EEG data were acquired using a NeuSenW amplifier (Neuracle) with 8 semi-dry pre-gelled electrodes positioned around the occipital lobe (POz, PO3, PO4, PO7, PO8, Oz, O1, O2) according to the standard 10-05 montage with Fp1 as reference. Signals were recorded at 1000 Hz and downsampled to 250 Hz. Each trial consisted of 0.5 s pre-stimulus, 4 s visual stimulation with JFPM flicker, and 0.5 s post-stimulus feedback, yielding 1250 samples per epoch. Subjects completed 4 blocks of 40 trials in a single session.",
   "license": "CC BY-NC 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -15,22 +15,19 @@
       "term": "EEG"
     },
     {
-      "term": "steady-state visually evoked potentials"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
       "term": "SSVEP"
     },
     {
-      "term": "visual perception"
+      "term": "brain-computer interface"
     },
     {
-      "term": "adolescents"
+      "term": "visual evoked potentials"
     },
     {
       "term": "frequency modulation"
+    },
+    {
+      "term": "adolescents"
     }
   ],
   "related_identifiers": [
@@ -45,11 +42,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000128",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -58,6 +50,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000128",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -66,16 +63,17 @@
     "eeg"
   ],
   "sizes": [
-    "415.4 MB (61 files)"
+    "1.1 GB (120 files)"
   ],
   "formats": [
     ".html",
     ".json",
+    ".mat",
     ".md",
     ".set",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "4be1647c845e23f89d6c52c0b1646369510160769980dc9df2d153dc9fa34c6f"
+  "source_hash": "31e33b1c9cc770084cbdc24d98ef915915cfbaff6cf9d4b2a0378882a95a308c"
 }

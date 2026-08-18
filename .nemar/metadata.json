@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dong2023 – 59-subject 40-class SSVEP dataset",
-  "description": "A 59-subject steady-state visually evoked potential (SSVEP) dataset comprising 8-channel EEG recordings from healthy adolescents (aged 10-16 years) performing a 40-target SSVEP-based brain-computer interface task. The dataset includes 160 trials per subject using joint frequency and phase modulation stimuli with frequencies ranging from 8.0 to 15.8 Hz, recorded at 250 Hz sampling rate and organized in BIDS format for standardized analysis and benchmarking.",
-  "methods_description": "EEG data were acquired using a NeuSenW amplifier (Neuracle) with 8 semi-dry pre-gelled electrodes positioned around the occipital lobe (POz, PO3, PO4, PO7, PO8, Oz, O1, O2) according to the standard 10-05 montage with Fp1 as reference. Signals were recorded at 1000 Hz and downsampled to 250 Hz. Each trial consisted of 0.5 s pre-stimulus, 4 s visual stimulation with JFPM flicker, and 0.5 s post-stimulus feedback, yielding 1250 samples per epoch. Subjects completed 4 blocks of 40 trials in a single session.",
+  "description": "A 59-subject steady-state visually evoked potential (SSVEP) dataset comprising 8-channel EEG recordings from healthy adolescents (aged 10-16 years) performing a 40-target SSVEP-based brain-computer interface task. The dataset includes 160 trials per subject using joint frequency and phase modulation stimuli with frequencies ranging from 8.0 to 15.8 Hz, recorded at 250 Hz sampling rate and preprocessed into 4-second epoched segments. This resource supports the development and benchmarking of SSVEP decoding algorithms and BCI applications.",
+  "methods_description": "EEG data were acquired using a NeuSenW amplifier (Neuracle) with 8 semi-dry pre-gelled electrodes positioned around the occipital lobe (POz, PO3, PO4, PO7, PO8, Oz, O1, O2) according to the standard 10-05 montage. Signals were recorded at 1000 Hz with reference at Fp1 and ground at Fp2, then downsampled to 250 Hz. Each trial consisted of a 1-second cue, 4-second visual stimulation with JFPM flicker, and 1-second visual feedback. Subjects completed 4 blocks of 40 trials each, with epochs spanning 5 seconds (0.5 s pre-stimulus, 4 s stimulation, 0.5 s post-stimulus).",
   "license": "CC BY-NC 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -15,19 +15,22 @@
       "term": "EEG"
     },
     {
+      "term": "steady-state visually evoked potentials"
+    },
+    {
       "term": "SSVEP"
     },
     {
       "term": "brain-computer interface"
     },
     {
-      "term": "visual evoked potentials"
+      "term": "BCI"
+    },
+    {
+      "term": "visual perception"
     },
     {
       "term": "frequency modulation"
-    },
-    {
-      "term": "adolescents"
     }
   ],
   "related_identifiers": [
@@ -75,5 +78,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "31e33b1c9cc770084cbdc24d98ef915915cfbaff6cf9d4b2a0378882a95a308c"
+  "source_hash": "a1a62163fa080e5d98fc9ee9543f352c3c93808e81e6133bfad85ecf58236cca"
 }

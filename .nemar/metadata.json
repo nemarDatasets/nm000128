@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dong2023 – 59-subject 40-class SSVEP dataset",
-  "description": "A 59-subject steady-state visually evoked potential (SSVEP) dataset comprising 8-channel EEG recordings from healthy adolescents (aged 10-16 years) performing a 40-target SSVEP-based brain-computer interface task. The dataset includes 160 trials per subject using joint frequency and phase modulation stimuli with frequencies ranging from 8.0 to 15.8 Hz, recorded at 250 Hz sampling rate and preprocessed into 4-second epoched segments. This resource supports the development and benchmarking of SSVEP decoding algorithms and BCI applications.",
-  "methods_description": "EEG data were acquired using a NeuSenW amplifier (Neuracle) with 8 semi-dry pre-gelled electrodes positioned around the occipital lobe (POz, PO3, PO4, PO7, PO8, Oz, O1, O2) according to the standard 10-05 montage. Signals were recorded at 1000 Hz with reference at Fp1 and ground at Fp2, then downsampled to 250 Hz. Each trial consisted of a 1-second cue, 4-second visual stimulation with JFPM flicker, and 1-second visual feedback. Subjects completed 4 blocks of 40 trials each, with epochs spanning 5 seconds (0.5 s pre-stimulus, 4 s stimulation, 0.5 s post-stimulus).",
+  "description": "An 8-channel EEG dataset from 59 healthy adolescents (aged 10-16) performing a 40-target SSVEP-based BCI speller task. The task used joint frequency and phase modulation (JFPM) with stimulation frequencies of 8.0-15.8 Hz. Data were collected at the Suzhou Junior Competition of BCI Olympics 2022, and each participant completed 4 blocks of 40 trials.",
+  "methods_description": "EEG was recorded at 1000 Hz with a NeuSenW (Neuracle) amplifier using 8 semi-dry pre-gelled electrodes over the occipital region (Fp1 reference, Fp2 ground), then downsampled to 250 Hz. Each trial consisted of a 1 s cue, 4 s of flicker stimulation, and 1 s of visual feedback. Epochs span 5 s (0.5 s pre-stimulus, 4 s stimulation, 0.5 s post-stimulus).",
   "license": "CC BY-NC 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -15,22 +15,19 @@
       "term": "EEG"
     },
     {
-      "term": "steady-state visually evoked potentials"
-    },
-    {
       "term": "SSVEP"
     },
     {
       "term": "brain-computer interface"
     },
     {
-      "term": "BCI"
-    },
-    {
       "term": "visual perception"
     },
     {
-      "term": "frequency modulation"
+      "term": "joint frequency and phase modulation"
+    },
+    {
+      "term": "adolescents"
     }
   ],
   "related_identifiers": [
@@ -66,7 +63,7 @@
     "eeg"
   ],
   "sizes": [
-    "1.1 GB (120 files)"
+    "1.04 GB (120 files)"
   ],
   "formats": [
     ".html",

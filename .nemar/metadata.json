@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dong2023 – 59-subject 40-class SSVEP dataset",
-  "description": "An 8-channel EEG dataset from 59 healthy adolescents (aged 10-16) performing a 40-target SSVEP-based BCI speller task. The task used joint frequency and phase modulation (JFPM) with stimulation frequencies of 8.0-15.8 Hz. Data were collected at the Suzhou Junior Competition of BCI Olympics 2022, and each participant completed 4 blocks of 40 trials.",
-  "methods_description": "EEG was recorded at 1000 Hz with a NeuSenW (Neuracle) amplifier using 8 semi-dry pre-gelled electrodes over the occipital region (Fp1 reference, Fp2 ground), then downsampled to 250 Hz. Each trial consisted of a 1 s cue, 4 s of flicker stimulation, and 1 s of visual feedback. Epochs span 5 s (0.5 s pre-stimulus, 4 s stimulation, 0.5 s post-stimulus).",
+  "description": "An 8-channel EEG dataset from 59 healthy adolescents (aged 10-16) who performed a 40-target SSVEP-based brain-computer interface task. The task used joint frequency and phase modulation (JFPM) with stimulation frequencies of 8.0-15.8 Hz. Data were collected at the Suzhou Junior Competition of BCI Olympics 2022 and are provided as epoched trials, 4 blocks of 40 trials per subject. The dataset supports benchmarking of SSVEP classification and spatial-filtering methods.",
+  "methods_description": "EEG was recorded at 1000 Hz with a NeuSenW (Neuracle) amplifier using 8 semi-dry pre-gelled electrodes over the occipital region (POz, PO3, PO4, PO7, PO8, Oz, O1, O2), referenced to Fp1, then downsampled to 250 Hz. Each trial consisted of a 1 s cue, 4 s JFPM visual flicker stimulation on a 4x10 matrix layout, and 1 s feedback. Each subject completed 4 blocks of 40 trials, and data are epoched from 0.5 s before to 0.5 s after stimulation.",
   "license": "CC BY-NC 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -24,10 +24,10 @@
       "term": "visual perception"
     },
     {
-      "term": "joint frequency and phase modulation"
+      "term": "adolescents"
     },
     {
-      "term": "adolescents"
+      "term": "joint frequency and phase modulation"
     }
   ],
   "related_identifiers": [
@@ -75,5 +75,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "a1a62163fa080e5d98fc9ee9543f352c3c93808e81e6133bfad85ecf58236cca"
+  "source_hash": "6db532f793079b2c0a704a1781b4434b17c9d51776b9d3713ef42b9b317c3e6c"
 }
